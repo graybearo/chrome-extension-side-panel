@@ -1,0 +1,56 @@
+{
+	"name": "chrome-extension-side-panel",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Chrome Side Panel API starter — Manifest V3 extension boilerplate using chrome.sidePanel, Vite, React, and TypeScript. Requires Chrome 114+.",
+	"keywords": [
+		"chrome-extension",
+		"browser-extension",
+		"side-panel",
+		"chrome-side-panel",
+		"sidepanel",
+		"chrome-extension-boilerplate",
+		"chrome-extension-starter",
+		"chrome-extension-template",
+		"extension-boilerplate",
+		"mv3",
+		"manifest-v3",
+		"vite",
+		"react",
+		"typescript",
+		"web-extension",
+		"webextension",
+		"crxjs"
+	],
+	"author": "graybear",
+	"license": "MIT",
+	"homepage": "https://github.com/graybearo/chrome-extension-side-panel#readme",
+	"bugs": "https://github.com/graybearo/chrome-extension-side-panel/issues",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/graybearo/chrome-extension-side-panel.git"
+	},
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc --noEmit && vite build",
+		"preview": "vite preview",
+		"typecheck": "tsc --noEmit",
+		"zip": "node scripts/zip.mjs"
+	},
+	"dependencies": {
+		"mv3-message-router": "^0.1.0",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@crxjs/vite-plugin": "^2.0.0-beta.28",
+		"@types/chrome": "^0.0.280",
+		"@types/node": "^22.9.0",
+		"@types/react": "^18.3.12",
+		"@types/react-dom": "^18.3.1",
+		"@vitejs/plugin-react": "^4.3.3",
+		"typescript": "^5.6.0",
+		"vite": "^5.4.10"
+	}
+}
